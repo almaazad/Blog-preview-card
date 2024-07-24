@@ -1,0 +1,55 @@
+@import url(style/font/font.css);
+body{
+    background-color: #f5d04e;
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.bg-main{
+    background-color: #f5d04e;
+}
+ a{
+    font-family: myfont;
+    font-weight: 800;
+    font-size: x-large;
+    color: black !important;
+    text-decoration: none !important;
+ }
+ a:hover{
+    color: #f5d04e !important;
+ }
+img.rounded-circle{
+    width: 40px;
+    height: 40px;
+}
+span{
+    font-size: small;
+    font-family: myfont;
+    font-weight: 800;
+}
+button.learningp{
+    font-family: myfont;
+    font-weight: 800;
+    font-size: small;
+    padding: 5px;
+    padding-left: 15px;
+    padding-right: 15px;
+    border: none;
+    background-color: #f5d04e;
+    margin-top: 25px;
+    border-radius: 7px;
+}
+.pub{
+    font-family:myfont;
+    font-weight: 600;
+    margin-top: 10px;
+}
+div.col-xxl-3{
+    box-shadow: rgb(0, 0, 0) 8px 8px;
+    border-radius: 20px;
+
+}
+div.col p.mt-3{
+    font-weight: 400;
+}
